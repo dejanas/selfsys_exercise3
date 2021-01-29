@@ -3,11 +3,9 @@
 
 # In[1]:
 
-
 import pandas as pd
 import numpy as np
 import gzip
-
 
 class SOMToolBox_Parse:
     
@@ -62,18 +60,15 @@ class SOMToolBox_Parse:
 
 # In[2]:
 
-
 import numpy as np
 from scipy.spatial import distance_matrix, distance
 from ipywidgets import Layout, HBox, Box, widgets, interact
 import plotly.graph_objects as go
 
-
 from IPython.core.display import display, HTML
 display(HTML("<style>.container { width:100% !important; }</style>")) 
 
-class SomViz:
-    
+class SomViz: 
     def __init__(self, weights=[], m=None, n=None):
         self.weights = weights
         self.m = m
@@ -131,7 +126,6 @@ class SomViz:
         else: som_map.data[0].z = np.array(sdh_m).reshape(-1,self.n)
         
     def project_data(self,som_m=None, idata=[], title=""):
-
         data_y = []
         data_x = []
         for v in idata:
@@ -143,7 +137,6 @@ class SomViz:
         if som_m!=None: som_m.add_trace(go.Scatter(x=data_x, y=data_y, mode = "markers", marker_color='rgba(255, 255, 255, 0.8)',))
     
     def time_series(self, som_m=None, idata=[], wsize=50, title=""): #not tested
-             
         data_y = []
         data_x = [i for i in range(0,len(idata))]
         
@@ -201,14 +194,11 @@ class SomViz:
 
 # In[3]:
 
-
 import pandas as pd
 import minisom as som
 from sklearn import datasets, preprocessing
 #interp: False, 'best', 'fast', 
 #color = 'viridis': https://plotly.com/python/builtin-colorscales/
-
-
 
 #############################
 ######## miniSOM ############1/0
