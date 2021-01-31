@@ -1,0 +1,18 @@
+#chainlink_40x20 prop file
+# somtoolbox [GrowingSOM, --numberWinners, 300, --cpus, 4, 
+#   C:\Users\Flo\Downloads\SOM template\output\chainlink_40x20.prop]
+#
+#Sun Jan 31 17:32:20 CET 2021
+workingDirectory=C\:\\Users\\Flo\\Downloads\\SOM template\\output
+tau=1.0
+templateFileName=C\:\\Users\\Flo\\Downloads\\SOM template\\chainlink.tv
+ySize=20
+learnRate=0.7
+randomSeed=7
+numIterations=1500
+namePrefix=chainlink_40x20
+vectorFileName=C\:\\Users\\Flo\\Downloads\\SOM template\\chainlink.vec
+sparseData=no
+outputDirectory=C\:\\Users\\Flo\\Downloads\\SOM template\\output
+xSize=40
+isNormalized=no

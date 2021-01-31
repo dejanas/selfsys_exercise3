@@ -1,0 +1,18 @@
+#10clusters_100x60 prop file
+# somtoolbox [GrowingSOM, --numberWinners, 300, --cpus, 4, 
+#   C:\Users\Flo\Downloads\SOM template\output\10clusters_100x60.prop]
+#
+#Sun Jan 31 17:29:40 CET 2021
+workingDirectory=C\:\\Users\\Flo\\Downloads\\SOM template\\output
+tau=1.0
+templateFileName=C\:\\Users\\Flo\\Downloads\\SOM template\\10clusters.tv
+ySize=60
+learnRate=0.7
+randomSeed=7
+numIterations=1500
+namePrefix=10clusters_100x60
+vectorFileName=C\:\\Users\\Flo\\Downloads\\SOM template\\10clusters.vec
+sparseData=no
+outputDirectory=C\:\\Users\\Flo\\Downloads\\SOM template\\output
+xSize=100
+isNormalized=no
